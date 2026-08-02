@@ -151,7 +151,7 @@ Future phases may include:
 
 ## Authors
 
-**Group 14**
+**Group 22**
 
 Course: **CSE437 -- Data Science Project**
 
