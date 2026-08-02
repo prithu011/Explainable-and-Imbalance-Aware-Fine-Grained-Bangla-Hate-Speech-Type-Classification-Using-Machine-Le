@@ -1,0 +1,55 @@
+{
+  "project_title": "Explainable and Imbalance-Aware Fine-Grained Bangla Hate Speech Type Classification Using Machine Learning",
+  "dataset_repository": "aridhasan/BanglaMultiHate",
+  "created_utc": "2026-08-02T19:26:01.673807+00:00",
+  "random_seed": 42,
+  "target_column": "type_of_hate",
+  "class_order": [
+    "None",
+    "Abusive",
+    "Sexism",
+    "Religious Hate",
+    "Political Hate",
+    "Profane"
+  ],
+  "split_rows_after_cleaning": {
+    "train": 15568,
+    "dev": 2126,
+    "test": 4449
+  },
+  "dataset_fingerprints": [
+    {
+      "split": "train",
+      "rows": 35522,
+      "columns": 8,
+      "fingerprint_sha256": "2ee0fe4267baf3c85ce6a5fcabc64cf08fba6de1ccbf9c614b932ec13ba0a0c6"
+    },
+    {
+      "split": "dev",
+      "rows": 5024,
+      "columns": 8,
+      "fingerprint_sha256": "c06ab475c01258c350416da85a1409fc7d816f3620f38cbb3b957ece0c8d21f6"
+    },
+    {
+      "split": "test",
+      "rows": 10200,
+      "columns": 8,
+      "fingerprint_sha256": "95136b5a298f9c46e6b35b1f9db55a2d9ff60a31dfdbdb411bdbd0050f90494d"
+    }
+  ],
+  "numeric_feature_count": 21,
+  "word_tfidf_feature_count": 30000,
+  "character_tfidf_feature_count": 20000,
+  "metadata_feature_count": 113,
+  "svd_components": 100,
+  "class_weights": {
+    "Abusive": 0.37915245981490503,
+    "Sexism": 25.521311475409835,
+    "Religious Hate": 4.6059171597633135,
+    "Political Hate": 0.7365980600898983,
+    "Profane": 1.3357357357357358
+  },
+  "python_version": "3.13.1",
+  "pandas_version": "2.3.3",
+  "numpy_version": "2.3.5"
+}

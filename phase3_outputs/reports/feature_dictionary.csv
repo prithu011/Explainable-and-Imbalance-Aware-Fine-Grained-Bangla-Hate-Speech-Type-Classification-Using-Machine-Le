@@ -1,0 +1,39 @@
+﻿feature_name,feature_group,definition,project_relevance,fitted_using,target_leakage
+char_count_raw,Length,Number of Unicode characters in raw comment,Captures comment verbosity and short-comment behavior,Row-level deterministic transformation,No target label used
+char_count_model,Length,Characters after conservative normalization,Audits normalization and supports compactness analysis,Row-level deterministic transformation,No target label used
+token_count,Length,Number of Bangla/Latin/numeric tokens,Text-size feature independent of TF-IDF,Row-level deterministic transformation,No target label used
+unique_token_count,Lexical,Number of unique tokens,Vocabulary richness,Row-level deterministic transformation,No target label used
+lexical_diversity,Lexical,Unique tokens divided by total tokens,Repetition and lexical variety,Row-level deterministic transformation,No target label used
+average_token_length,Lexical,Mean token length,Orthographic style,Row-level deterministic transformation,No target label used
+max_token_length,Lexical,Maximum token length,"Long compounds, concatenation, or noise",Row-level deterministic transformation,No target label used
+short_token_count,Lexical,Tokens with length <= 2,Short informal forms and particles,Row-level deterministic transformation,No target label used
+long_token_count,Lexical,Tokens with length >= 8,Long lexical forms and concatenations,Row-level deterministic transformation,No target label used
+bangla_stopword_count,Lexical,Count of EDA stopwords,Function-word density,Row-level deterministic transformation,No target label used
+bangla_stopword_ratio,Lexical,Stopword count divided by token count,Relative function-word density,Row-level deterministic transformation,No target label used
+bangla_char_count,Script,Bangla-script character count,Bangla content volume,Row-level deterministic transformation,No target label used
+latin_char_count,Script,Latin character count,English/code-mixed content,Row-level deterministic transformation,No target label used
+digit_count,Script,Digit count,Numeric references and obfuscation,Row-level deterministic transformation,No target label used
+whitespace_count,Formatting,Whitespace character count,Spacing style,Row-level deterministic transformation,No target label used
+punctuation_count,Formatting,Unicode punctuation count,Emphasis and style,Row-level deterministic transformation,No target label used
+emoji_count,Formatting,Emoji/symbol character count,Affective and pragmatic cues,Row-level deterministic transformation,No target label used
+bangla_char_ratio,Script,Bangla chars divided by non-space chars,Language composition,Row-level deterministic transformation,No target label used
+latin_char_ratio,Script,Latin chars divided by non-space chars,Code-mixing intensity,Row-level deterministic transformation,No target label used
+digit_ratio,Script,Digits divided by non-space chars,Relative numeric content,Row-level deterministic transformation,No target label used
+punctuation_ratio,Formatting,Punctuation divided by non-space chars,Relative emphasis,Row-level deterministic transformation,No target label used
+code_mixed_flag,Script,1 when Bangla and Latin characters coexist,Code-mixed comment indicator,Row-level deterministic transformation,No target label used
+url_count,Noise/Context,Number of URLs,External-link behavior,Row-level deterministic transformation,No target label used
+email_count,Noise/Context,Number of email addresses,Contact-information pattern,Row-level deterministic transformation,No target label used
+mention_count,Noise/Context,Number of @mentions,Direct targeting cue,Row-level deterministic transformation,No target label used
+hashtag_count,Noise/Context,Number of hashtags,Topic and campaign cue,Row-level deterministic transformation,No target label used
+exclamation_count,Emphasis,Number of exclamation marks,Emotional emphasis,Row-level deterministic transformation,No target label used
+question_count,Emphasis,Number of question marks,Interrogative or rhetorical style,Row-level deterministic transformation,No target label used
+bangla_danda_count,Formatting,Number of Bangla danda marks,Bangla sentence-boundary signal,Row-level deterministic transformation,No target label used
+newline_count,Formatting,Number of line breaks,Multi-line structure,Row-level deterministic transformation,No target label used
+repeated_punctuation_count,Emphasis,Runs of repeated punctuation,Intensification,Row-level deterministic transformation,No target label used
+repeated_character_count,Emphasis,Character runs of length >= 3,Elongation and expressive spelling,Row-level deterministic transformation,No target label used
+placeholder_count,Normalization,Count of normalized URL/user/email/number placeholders,Amount of replaced noisy content,Row-level deterministic transformation,No target label used
+all_caps_latin_token_count,Emphasis,Uppercase Latin token count,Code-mixed shouting cue,Row-level deterministic transformation,No target label used
+log_char_count,Length,log(1 + raw character count),Reduces extreme length skew,Row-level deterministic transformation,No target label used
+log_token_count,Length,log(1 + token count),Reduces extreme token-count skew,Row-level deterministic transformation,No target label used
+category_train_frequency,Metadata,Training frequency of category,Optional metadata rarity signal; ablation only,Training split only,No target label used
+subcategory_train_frequency,Metadata,Training frequency of subcategory,Optional metadata rarity signal; ablation only,Training split only,No target label used

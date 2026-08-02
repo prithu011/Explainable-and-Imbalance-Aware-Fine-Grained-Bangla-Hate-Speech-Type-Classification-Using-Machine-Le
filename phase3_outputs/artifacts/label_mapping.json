@@ -1,0 +1,18 @@
+{
+  "label_to_id": {
+    "None": 0,
+    "Abusive": 1,
+    "Sexism": 2,
+    "Religious Hate": 3,
+    "Political Hate": 4,
+    "Profane": 5
+  },
+  "id_to_label": {
+    "0": "None",
+    "1": "Abusive",
+    "2": "Sexism",
+    "3": "Religious Hate",
+    "4": "Political Hate",
+    "5": "Profane"
+  }
+}

@@ -1,0 +1,10 @@
+﻿split,feature_set,rows,columns,nonzero_values,density,recommended_use
+train,text_only,15568,50000,2401268,0.0030848766700924974,Transparent text baseline
+train,text_numeric,15568,50021,2635875,0.0033848514867332287,Primary classical-ML feature set
+train,text_numeric_metadata,15568,50134,2698147,0.003457008342001094,Optional metadata ablation only
+dev,text_only,2126,50000,317680,0.0029885230479774223,Transparent text baseline
+dev,text_numeric,2126,50021,349784,0.0032891547732454723,Primary classical-ML feature set
+dev,text_numeric_metadata,2126,50134,358286,0.0033615085606322937,Optional metadata ablation only
+test,text_only,4449,50000,671611,0.003019154866262081,Transparent text baseline
+test,text_numeric,4449,50021,738566,0.0033187499775605596,Primary classical-ML feature set
+test,text_numeric_metadata,4449,50134,756358,0.003391037889438548,Optional metadata ablation only

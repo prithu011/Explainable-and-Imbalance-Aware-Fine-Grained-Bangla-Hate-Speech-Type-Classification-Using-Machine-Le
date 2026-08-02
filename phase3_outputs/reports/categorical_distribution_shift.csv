@@ -1,0 +1,11 @@
+﻿feature,comparison,jensen_shannon_distance
+type_of_hate,train vs dev,0.018215359531490494
+type_of_hate,train vs test,0.01000710140911544
+category,train vs dev,0.03714221951260479
+category,train vs test,0.024468382905925023
+subcategory,train vs dev,0.075286617887366
+subcategory,train vs test,0.05820621860435236
+severity_of_hate,train vs dev,0.017169465344450876
+severity_of_hate,train vs test,0.004209145822531827
+target_of_hate,train vs dev,0.021563347143681327
+target_of_hate,train vs test,0.008106424572893981

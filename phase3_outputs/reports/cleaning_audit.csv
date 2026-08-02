@@ -1,0 +1,4 @@
+﻿split,rows_before,missing_text_rows_removed,missing_target_rows_removed,exact_duplicate_rows_removed,rows_after_basic_cleaning,empty_after_normalization_removed,final_clean_rows
+train,35522,0,19954,0,15568,0.0,15568.0
+dev,5024,0,2898,0,2126,0.0,2126.0
+test,10200,0,5751,0,4449,0.0,4449.0
