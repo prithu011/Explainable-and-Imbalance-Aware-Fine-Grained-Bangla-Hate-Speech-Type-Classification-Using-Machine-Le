@@ -1,0 +1,75 @@
+{
+  "project_title": "Explainable and Imbalance-Aware Fine-Grained Bangla Hate Speech Type Classification Using Machine Learning",
+  "random_seed": 42,
+  "task_type": "imbalanced multi-class text classification",
+  "selection_split": "development",
+  "primary_selection_metric": "macro_f1",
+  "selection_tie_breakers": [
+    "minority_recall_mean",
+    "micro_f1"
+  ],
+  "test_used_for_model_selection": false,
+  "candidate_model_count": 9,
+  "candidate_models": [
+    "Dummy Most-Frequent",
+    "ComplementNB",
+    "Ridge Balanced - Text Only",
+    "Ridge Balanced - Text + Numeric",
+    "SGD Logistic - Unweighted",
+    "SGD Logistic - Balanced",
+    "SGD Linear SVM - Balanced",
+    "Logistic Regression OVR - Balanced - Text Only",
+    "Logistic Regression OVR - Balanced"
+  ],
+  "observed_class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "observed_class_labels": [
+    "Abusive",
+    "Sexism",
+    "Religious Hate",
+    "Political Hate",
+    "Profane"
+  ],
+  "minority_class_labels": [
+    "Sexism",
+    "Religious Hate"
+  ],
+  "selected_model": "Logistic Regression OVR - Balanced",
+  "selected_feature_set": "text_numeric",
+  "development_metrics": {
+    "accuracy": 0.7441204139228599,
+    "balanced_accuracy": 0.6592693398806704,
+    "micro_f1": 0.7441204139228599,
+    "macro_f1": 0.6482230218769891,
+    "weighted_f1": 0.7460282413978616,
+    "macro_precision": 0.6490223297939512,
+    "macro_recall": 0.6592693398806704,
+    "minority_recall_mean": 0.5431848852901484,
+    "mcc": 0.5951730479648824,
+    "cohen_kappa": 0.5945108001875031
+  },
+  "test_metrics": {
+    "accuracy": 0.7331984715666442,
+    "balanced_accuracy": 0.6056409354602615,
+    "micro_precision": 0.7331984715666442,
+    "micro_recall": 0.7331984715666442,
+    "micro_f1": 0.7331984715666442,
+    "macro_precision": 0.5890286487970011,
+    "macro_recall": 0.6056409354602615,
+    "macro_f1": 0.5910425684465063,
+    "weighted_precision": 0.7380984717825435,
+    "weighted_recall": 0.7331984715666442,
+    "weighted_f1": 0.7339939006472247,
+    "mcc": 0.5792968483174581,
+    "cohen_kappa": 0.578603958836476,
+    "minority_recall_mean": 0.43161240608745904,
+    "roc_auc_macro_ovr": 0.8966946280929043,
+    "average_precision_macro": 0.6195293915480844,
+    "average_precision_micro": 0.7736758761222284
+  }
+}

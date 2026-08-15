@@ -1,0 +1,6 @@
+﻿class_label,average_precision
+Abusive,0.8370608742340819
+Profane,0.7530949586708217
+Political Hate,0.7331846925657988
+Religious Hate,0.6181144497600009
+Sexism,0.15619198250971902
