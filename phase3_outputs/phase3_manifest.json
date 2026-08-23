@@ -1,7 +1,7 @@
 {
   "project_title": "Explainable and Imbalance-Aware Fine-Grained Bangla Hate Speech Type Classification Using Machine Learning",
   "dataset_repository": "aridhasan/BanglaMultiHate",
-  "created_utc": "2026-08-02T19:26:01.673807+00:00",
+  "created_utc": "2026-08-23T12:04:19.434445+00:00",
   "random_seed": 42,
   "target_column": "type_of_hate",
   "class_order": [
@@ -13,9 +13,9 @@
     "Profane"
   ],
   "split_rows_after_cleaning": {
-    "train": 15568,
-    "dev": 2126,
-    "test": 4449
+    "train": 35522,
+    "dev": 5024,
+    "test": 10200
   },
   "dataset_fingerprints": [
     {
@@ -40,16 +40,17 @@
   "numeric_feature_count": 21,
   "word_tfidf_feature_count": 30000,
   "character_tfidf_feature_count": 20000,
-  "metadata_feature_count": 113,
+  "metadata_feature_count": 143,
   "svd_components": 100,
   "class_weights": {
-    "Abusive": 0.37915245981490503,
-    "Sexism": 25.521311475409835,
-    "Religious Hate": 4.6059171597633135,
-    "Political Hate": 0.7365980600898983,
-    "Profane": 1.3357357357357358
+    "None": 0.2966990745381043,
+    "Abusive": 0.7209368403961682,
+    "Sexism": 48.52732240437158,
+    "Religious Hate": 8.757889546351084,
+    "Political Hate": 1.4005993218200457,
+    "Profane": 2.53982553982554
   },
-  "python_version": "3.13.1",
-  "pandas_version": "2.3.3",
-  "numpy_version": "2.3.5"
+  "python_version": "3.12.3",
+  "pandas_version": "3.0.1",
+  "numpy_version": "2.4.6"
 }

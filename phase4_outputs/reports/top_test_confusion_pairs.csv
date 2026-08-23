@@ -1,13 +1,13 @@
 ﻿true_label,predicted_label,error_count,confusion_pair
-Abusive,Political Hate,358,Abusive → Political Hate
-Political Hate,Abusive,285,Political Hate → Abusive
-Profane,Abusive,133,Profane → Abusive
-Abusive,Profane,105,Abusive → Profane
-Profane,Political Hate,77,Profane → Political Hate
-Abusive,Religious Hate,77,Abusive → Religious Hate
-Political Hate,Profane,32,Political Hate → Profane
-Religious Hate,Abusive,28,Religious Hate → Abusive
-Sexism,Abusive,24,Sexism → Abusive
-Political Hate,Religious Hate,24,Political Hate → Religious Hate
-Profane,Religious Hate,13,Profane → Religious Hate
-Abusive,Sexism,12,Abusive → Sexism
+None,Abusive,865,None → Abusive
+Abusive,None,639,Abusive → None
+None,Political Hate,430,None → Political Hate
+Abusive,Political Hate,299,Abusive → Political Hate
+Political Hate,Abusive,220,Political Hate → Abusive
+Political Hate,None,161,Political Hate → None
+Profane,Abusive,117,Profane → Abusive
+None,Religious Hate,103,None → Religious Hate
+Abusive,Profane,103,Abusive → Profane
+Profane,Political Hate,63,Profane → Political Hate
+Abusive,Religious Hate,59,Abusive → Religious Hate
+None,Profane,49,None → Profane

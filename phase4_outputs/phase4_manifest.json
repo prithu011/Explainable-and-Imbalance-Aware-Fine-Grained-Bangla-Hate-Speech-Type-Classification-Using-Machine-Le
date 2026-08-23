@@ -22,6 +22,7 @@
     "Logistic Regression OVR - Balanced"
   ],
   "observed_class_ids": [
+    0,
     1,
     2,
     3,
@@ -29,6 +30,7 @@
     5
   ],
   "observed_class_labels": [
+    "None",
     "Abusive",
     "Sexism",
     "Religious Hate",
@@ -37,39 +39,40 @@
   ],
   "minority_class_labels": [
     "Sexism",
-    "Religious Hate"
+    "Religious Hate",
+    "Profane"
   ],
   "selected_model": "Logistic Regression OVR - Balanced",
   "selected_feature_set": "text_numeric",
   "development_metrics": {
-    "accuracy": 0.7441204139228599,
-    "balanced_accuracy": 0.6592693398806704,
-    "micro_f1": 0.7441204139228599,
-    "macro_f1": 0.6482230218769891,
-    "weighted_f1": 0.7460282413978616,
-    "macro_precision": 0.6490223297939512,
-    "macro_recall": 0.6592693398806704,
-    "minority_recall_mean": 0.5431848852901484,
-    "mcc": 0.5951730479648824,
-    "cohen_kappa": 0.5945108001875031
+    "accuracy": 0.6757563694267515,
+    "balanced_accuracy": 0.5615464275472531,
+    "micro_f1": 0.6757563694267515,
+    "macro_f1": 0.5310228700560059,
+    "weighted_f1": 0.6844538047265124,
+    "macro_precision": 0.5135136981595024,
+    "macro_recall": 0.5615464275472531,
+    "minority_recall_mean": 0.4869545659019343,
+    "mcc": 0.48493456330428697,
+    "cohen_kappa": 0.4825647744295919
   },
   "test_metrics": {
-    "accuracy": 0.7331984715666442,
-    "balanced_accuracy": 0.6056409354602615,
-    "micro_precision": 0.7331984715666442,
-    "micro_recall": 0.7331984715666442,
-    "micro_f1": 0.7331984715666442,
-    "macro_precision": 0.5890286487970011,
-    "macro_recall": 0.6056409354602615,
-    "macro_f1": 0.5910425684465063,
-    "weighted_precision": 0.7380984717825435,
-    "weighted_recall": 0.7331984715666442,
-    "weighted_f1": 0.7339939006472247,
-    "mcc": 0.5792968483174581,
-    "cohen_kappa": 0.578603958836476,
-    "minority_recall_mean": 0.43161240608745904,
-    "roc_auc_macro_ovr": 0.8966946280929043,
-    "average_precision_macro": 0.6195293915480844,
-    "average_precision_micro": 0.7736758761222284
+    "accuracy": 0.6736274509803921,
+    "balanced_accuracy": 0.5441650451497517,
+    "micro_precision": 0.6736274509803921,
+    "micro_recall": 0.6736274509803921,
+    "micro_f1": 0.6736274509803921,
+    "macro_precision": 0.496352214193889,
+    "macro_recall": 0.5441650451497517,
+    "macro_f1": 0.5129250157090423,
+    "weighted_precision": 0.6943806539504973,
+    "weighted_recall": 0.6736274509803921,
+    "weighted_f1": 0.6809862217986998,
+    "mcc": 0.488742004102318,
+    "cohen_kappa": 0.48663382762832497,
+    "minority_recall_mean": 0.45163797926268723,
+    "roc_auc_macro_ovr": 0.8769060642316931,
+    "average_precision_macro": 0.5247722563870939,
+    "average_precision_micro": 0.7480438503124546
   }
 }

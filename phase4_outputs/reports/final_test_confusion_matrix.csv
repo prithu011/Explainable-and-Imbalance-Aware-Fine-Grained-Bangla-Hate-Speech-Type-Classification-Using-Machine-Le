@@ -1,6 +1,7 @@
-﻿,Abusive,Sexism,Religious Hate,Political Hate,Profane
-Abusive,1760,12,77,358,105
-Sexism,24,3,0,1,1
-Religious Hate,28,0,136,10,5
-Political Hate,285,1,24,878,32
-Profane,133,1,13,77,485
+﻿,None,Abusive,Sexism,Religious Hate,Political Hate,Profane
+None,4292,865,12,103,430,49
+Abusive,639,1203,9,59,299,103
+Sexism,12,14,2,0,0,1
+Religious Hate,37,18,0,109,9,6
+Political Hate,161,220,1,19,785,34
+Profane,40,117,0,9,63,480

@@ -1,46 +1,55 @@
 ﻿model,class_label,recall
-Dummy Most-Frequent,Abusive,1.0
+Dummy Most-Frequent,None,1.0
+Dummy Most-Frequent,Abusive,0.0
 Dummy Most-Frequent,Sexism,0.0
 Dummy Most-Frequent,Religious Hate,0.0
 Dummy Most-Frequent,Political Hate,0.0
 Dummy Most-Frequent,Profane,0.0
-ComplementNB,Abusive,0.7672955974842768
-ComplementNB,Sexism,0.10526315789473684
-ComplementNB,Religious Hate,0.6794871794871795
-ComplementNB,Political Hate,0.7073170731707317
-ComplementNB,Profane,0.6169590643274854
-Ridge Balanced - Text Only,Abusive,0.7484276729559748
-Ridge Balanced - Text Only,Sexism,0.3684210526315789
-Ridge Balanced - Text Only,Religious Hate,0.717948717948718
-Ridge Balanced - Text Only,Political Hate,0.6986062717770035
-Ridge Balanced - Text Only,Profane,0.7192982456140351
-Ridge Balanced - Text + Numeric,Abusive,0.7520215633423181
-Ridge Balanced - Text + Numeric,Sexism,0.3157894736842105
-Ridge Balanced - Text + Numeric,Religious Hate,0.7307692307692307
-Ridge Balanced - Text + Numeric,Political Hate,0.7038327526132404
-Ridge Balanced - Text + Numeric,Profane,0.7222222222222222
-SGD Logistic - Unweighted,Abusive,0.862533692722372
+ComplementNB,None,0.7525879917184265
+ComplementNB,Abusive,0.44923629829290207
+ComplementNB,Sexism,0.05263157894736842
+ComplementNB,Religious Hate,0.32051282051282054
+ComplementNB,Political Hate,0.6202090592334495
+ComplementNB,Profane,0.6812865497076024
+Ridge Balanced - Text Only,None,0.7056590752242926
+Ridge Balanced - Text Only,Abusive,0.5004492362982929
+Ridge Balanced - Text Only,Sexism,0.2631578947368421
+Ridge Balanced - Text Only,Religious Hate,0.5512820512820513
+Ridge Balanced - Text Only,Political Hate,0.6254355400696864
+Ridge Balanced - Text Only,Profane,0.7017543859649122
+Ridge Balanced - Text + Numeric,None,0.6897860593512768
+Ridge Balanced - Text + Numeric,Abusive,0.49236298292902064
+Ridge Balanced - Text + Numeric,Sexism,0.2631578947368421
+Ridge Balanced - Text + Numeric,Religious Hate,0.5769230769230769
+Ridge Balanced - Text + Numeric,Political Hate,0.6341463414634146
+Ridge Balanced - Text + Numeric,Profane,0.7046783625730995
+SGD Logistic - Unweighted,None,0.911663216011042
+SGD Logistic - Unweighted,Abusive,0.38095238095238093
 SGD Logistic - Unweighted,Sexism,0.0
-SGD Logistic - Unweighted,Religious Hate,0.38461538461538464
-SGD Logistic - Unweighted,Political Hate,0.6411149825783972
-SGD Logistic - Unweighted,Profane,0.5350877192982456
-SGD Logistic - Balanced,Abusive,0.8454627133872417
-SGD Logistic - Balanced,Sexism,0.3684210526315789
-SGD Logistic - Balanced,Religious Hate,0.6538461538461539
-SGD Logistic - Balanced,Political Hate,0.6149825783972126
-SGD Logistic - Balanced,Profane,0.6228070175438597
-SGD Linear SVM - Balanced,Abusive,0.784366576819407
-SGD Linear SVM - Balanced,Sexism,0.3684210526315789
-SGD Linear SVM - Balanced,Religious Hate,0.6794871794871795
-SGD Linear SVM - Balanced,Political Hate,0.7160278745644599
-SGD Linear SVM - Balanced,Profane,0.5497076023391813
-Logistic Regression OVR - Balanced - Text Only,Abusive,0.7789757412398922
-Logistic Regression OVR - Balanced - Text Only,Sexism,0.3157894736842105
-Logistic Regression OVR - Balanced - Text Only,Religious Hate,0.717948717948718
-Logistic Regression OVR - Balanced - Text Only,Political Hate,0.7282229965156795
-Logistic Regression OVR - Balanced - Text Only,Profane,0.7222222222222222
-Logistic Regression OVR - Balanced,Abusive,0.7717879604672058
-Logistic Regression OVR - Balanced,Sexism,0.3684210526315789
-Logistic Regression OVR - Balanced,Religious Hate,0.717948717948718
-Logistic Regression OVR - Balanced,Political Hate,0.7247386759581882
-Logistic Regression OVR - Balanced,Profane,0.7134502923976608
+SGD Logistic - Unweighted,Religious Hate,0.15384615384615385
+SGD Logistic - Unweighted,Political Hate,0.37456445993031356
+SGD Logistic - Unweighted,Profane,0.47076023391812866
+SGD Logistic - Balanced,None,0.6849551414768806
+SGD Logistic - Balanced,Abusive,0.5660377358490566
+SGD Logistic - Balanced,Sexism,0.3157894736842105
+SGD Logistic - Balanced,Religious Hate,0.5
+SGD Logistic - Balanced,Political Hate,0.5818815331010453
+SGD Logistic - Balanced,Profane,0.6081871345029239
+SGD Linear SVM - Balanced,None,0.6656314699792961
+SGD Linear SVM - Balanced,Abusive,0.5750224618149147
+SGD Linear SVM - Balanced,Sexism,0.3157894736842105
+SGD Linear SVM - Balanced,Religious Hate,0.47435897435897434
+SGD Linear SVM - Balanced,Political Hate,0.5871080139372822
+SGD Linear SVM - Balanced,Profane,0.5994152046783626
+Logistic Regression OVR - Balanced - Text Only,None,0.7387853692201518
+Logistic Regression OVR - Balanced - Text Only,Abusive,0.5327942497753818
+Logistic Regression OVR - Balanced - Text Only,Sexism,0.21052631578947367
+Logistic Regression OVR - Balanced - Text Only,Religious Hate,0.5128205128205128
+Logistic Regression OVR - Balanced - Text Only,Political Hate,0.632404181184669
+Logistic Regression OVR - Balanced - Text Only,Profane,0.7076023391812866
+Logistic Regression OVR - Balanced,None,0.7432712215320911
+Logistic Regression OVR - Balanced,Abusive,0.5309973045822103
+Logistic Regression OVR - Balanced,Sexism,0.2631578947368421
+Logistic Regression OVR - Balanced,Religious Hate,0.48717948717948717
+Logistic Regression OVR - Balanced,Political Hate,0.6341463414634146
+Logistic Regression OVR - Balanced,Profane,0.7105263157894737
