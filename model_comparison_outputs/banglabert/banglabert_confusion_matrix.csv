@@ -1,0 +1,7 @@
+true_label,None,Abusive,Sexism,Religious Hate,Political Hate,Profane
+None,4079,1033,16,107,462,54
+Abusive,353,1396,15,64,351,133
+Sexism,8,12,7,0,1,1
+Religious Hate,16,17,0,130,11,5
+Political Hate,94,185,0,15,879,47
+Profane,12,87,1,4,32,573

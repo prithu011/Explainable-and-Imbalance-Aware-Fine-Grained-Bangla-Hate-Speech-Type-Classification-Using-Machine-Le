@@ -1,0 +1,241 @@
+{
+  "created_utc": "2026-08-24T18:56:49.480244+00:00",
+  "paper_valid_full_run": true,
+  "test_evaluated_exactly_once": true,
+  "model_checkpoint": "csebuetnlp/banglabert",
+  "class_order": [
+    "None",
+    "Abusive",
+    "Sexism",
+    "Religious Hate",
+    "Political Hate",
+    "Profane"
+  ],
+  "label_to_id": {
+    "None": 0,
+    "Abusive": 1,
+    "Sexism": 2,
+    "Religious Hate": 3,
+    "Political Hate": 4,
+    "Profane": 5
+  },
+  "seed": 42,
+  "hyperparameters": {
+    "max_sequence_length": 128,
+    "learning_rate": 2e-05,
+    "epochs_requested": 3,
+    "initial_per_device_batch_size": 16,
+    "effective_per_device_batch_size": 16,
+    "gradient_accumulation_steps": 1,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 1,
+    "fp16": true,
+    "auto_find_batch_size": true
+  },
+  "split_sizes": {
+    "train": 35522,
+    "dev": 5024,
+    "test": 10200
+  },
+  "class_distributions": [
+    {
+      "split": "train",
+      "class": "None",
+      "class_id": 0,
+      "count": 19954,
+      "percentage": 56.17363887168515
+    },
+    {
+      "split": "train",
+      "class": "Abusive",
+      "class_id": 1,
+      "count": 8212,
+      "percentage": 23.118067676369574
+    },
+    {
+      "split": "train",
+      "class": "Sexism",
+      "class_id": 2,
+      "count": 122,
+      "percentage": 0.3434491301165475
+    },
+    {
+      "split": "train",
+      "class": "Religious Hate",
+      "class_id": 3,
+      "count": 676,
+      "percentage": 1.9030459996621811
+    },
+    {
+      "split": "train",
+      "class": "Political Hate",
+      "class_id": 4,
+      "count": 4227,
+      "percentage": 11.8996678114971
+    },
+    {
+      "split": "train",
+      "class": "Profane",
+      "class_id": 5,
+      "count": 2331,
+      "percentage": 6.562130510669444
+    },
+    {
+      "split": "dev",
+      "class": "None",
+      "class_id": 0,
+      "count": 2898,
+      "percentage": 57.68312101910828
+    },
+    {
+      "split": "dev",
+      "class": "Abusive",
+      "class_id": 1,
+      "count": 1113,
+      "percentage": 22.153662420382165
+    },
+    {
+      "split": "dev",
+      "class": "Sexism",
+      "class_id": 2,
+      "count": 19,
+      "percentage": 0.3781847133757962
+    },
+    {
+      "split": "dev",
+      "class": "Religious Hate",
+      "class_id": 3,
+      "count": 78,
+      "percentage": 1.552547770700637
+    },
+    {
+      "split": "dev",
+      "class": "Political Hate",
+      "class_id": 4,
+      "count": 574,
+      "percentage": 11.42515923566879
+    },
+    {
+      "split": "dev",
+      "class": "Profane",
+      "class_id": 5,
+      "count": 342,
+      "percentage": 6.807324840764331
+    },
+    {
+      "split": "test",
+      "class": "None",
+      "class_id": 0,
+      "count": 5751,
+      "percentage": 56.38235294117647
+    },
+    {
+      "split": "test",
+      "class": "Abusive",
+      "class_id": 1,
+      "count": 2312,
+      "percentage": 22.666666666666668
+    },
+    {
+      "split": "test",
+      "class": "Sexism",
+      "class_id": 2,
+      "count": 29,
+      "percentage": 0.28431372549019607
+    },
+    {
+      "split": "test",
+      "class": "Religious Hate",
+      "class_id": 3,
+      "count": 179,
+      "percentage": 1.7549019607843137
+    },
+    {
+      "split": "test",
+      "class": "Political Hate",
+      "class_id": 4,
+      "count": 1220,
+      "percentage": 11.96078431372549
+    },
+    {
+      "split": "test",
+      "class": "Profane",
+      "class_id": 5,
+      "count": 709,
+      "percentage": 6.950980392156863
+    }
+  ],
+  "training_class_weights": {
+    "source_split": "train",
+    "formula": "n_samples / (n_classes * class_count)",
+    "training_rows": 35522,
+    "weights": {
+      "None": 0.2966990745381043,
+      "Abusive": 0.7209368403961682,
+      "Sexism": 48.52732240437158,
+      "Religious Hate": 8.757889546351084,
+      "Political Hate": 1.4005993218200457,
+      "Profane": 2.53982553982554
+    }
+  },
+  "hardware": {
+    "python_version": "3.13.15",
+    "pytorch_version": "2.11.0+cu128",
+    "transformers_version": "5.15.1",
+    "cuda_available": true,
+    "gpu_name": "Tesla T4",
+    "gpu_free_memory_gb": 14.46075439453125,
+    "gpu_total_memory_gb": 14.56317138671875,
+    "cuda_capability": [
+      7,
+      5
+    ]
+  },
+  "package_versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.15.1",
+    "datasets": "5.0.1",
+    "accelerate": "1.14.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2"
+  },
+  "parameter_count": 110621958,
+  "trainable_parameter_count": 110621958,
+  "best_development_epoch": 3.0,
+  "best_model_checkpoint": "/content/cse437/phase5_outputs/banglabert/checkpoints/checkpoint-6663",
+  "development_metrics": {
+    "accuracy": 0.7002388535031847,
+    "balanced_accuracy": 0.6362307932885997,
+    "micro_f1": 0.7002388535031847,
+    "macro_f1": 0.5719257534038978,
+    "weighted_f1": 0.7117264587379735,
+    "macro_precision": 0.5361910253477093,
+    "macro_recall": 0.6362307932885997,
+    "mcc": 0.5466256785709778,
+    "cohen_kappa": 0.5385740147102196,
+    "minority_recall_mean": 0.5907932223721698,
+    "roc_auc_macro_ovr": 0.9116617959083494,
+    "average_precision_macro": 0.5977586885324747
+  },
+  "test_metrics": {
+    "accuracy": 0.6925490196078431,
+    "balanced_accuracy": 0.6348971357671668,
+    "micro_f1": 0.6925490196078431,
+    "macro_f1": 0.5698987696864233,
+    "weighted_f1": 0.7047240240254067,
+    "macro_precision": 0.5337252213244345,
+    "macro_recall": 0.6348971357671668,
+    "mcc": 0.543138048665262,
+    "cohen_kappa": 0.5346600924680347,
+    "minority_recall_mean": 0.5919389431837335,
+    "roc_auc_macro_ovr": 0.8943202920700427,
+    "average_precision_macro": 0.5747643284168586
+  },
+  "training_time_seconds": 609.5090159790002,
+  "development_inference_time_seconds": 7.03492900900028,
+  "test_inference_time_seconds": 13.472840848999567
+}

@@ -1,0 +1,6 @@
+# Phase 5 model checkpoints and caches are local-only and must not enter Git.
+model_comparison_outputs/banglabert/checkpoints/
+phase5_outputs/banglabert/cache/
+
+# Jupyter runtime scratch files.
+Notebook/.ipynb_checkpoints/

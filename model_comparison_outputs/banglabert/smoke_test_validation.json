@@ -1,0 +1,42 @@
+{
+  "status": "smoke_test_passed",
+  "invalid_for_paper": true,
+  "test_evaluated": false,
+  "model_checkpoint": "csebuetnlp/banglabert",
+  "seed": 42,
+  "small_batch_logits_shape": [
+    2,
+    6
+  ],
+  "smoke_train_rows": 48,
+  "smoke_dev_rows": 24,
+  "training_time_seconds": 2.8402244999999766,
+  "best_development_epoch": 0.6666666666666666,
+  "smoke_development_metrics": {
+    "accuracy": 0.25,
+    "balanced_accuracy": 0.25,
+    "micro_f1": 0.25,
+    "macro_f1": 0.20707070707070707,
+    "weighted_f1": 0.20707070707070707,
+    "macro_precision": 0.20238095238095236,
+    "macro_recall": 0.25,
+    "mcc": 0.1063990353197863,
+    "cohen_kappa": 0.09999999999999987,
+    "minority_recall_mean": 0.3333333333333333,
+    "roc_auc_macro_ovr": 0.5520833333333334,
+    "average_precision_macro": 0.28874620481141383
+  },
+  "hardware": {
+    "python_version": "3.13.15",
+    "pytorch_version": "2.11.0+cu128",
+    "transformers_version": "5.15.1",
+    "cuda_available": true,
+    "gpu_name": "Tesla T4",
+    "gpu_free_memory_gb": 14.46075439453125,
+    "gpu_total_memory_gb": 14.56317138671875,
+    "cuda_capability": [
+      7,
+      5
+    ]
+  }
+}
