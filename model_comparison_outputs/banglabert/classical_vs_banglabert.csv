@@ -1,0 +1,3 @@
+model,model_family,imbalance_method,development_macro_f1,test_accuracy,test_micro_f1,test_macro_f1,test_weighted_f1,test_balanced_accuracy,minority_recall_mean,training_time_seconds,test_inference_time_seconds,parameter_count
+Logistic Regression OVR - Balanced,Classical linear classifier,Balanced class weighting,0.5310228700560059,0.6736274509803921,0.6736274509803921,0.5129250157090423,0.6809862217986998,0.5441650451497517,0.45163797926268723,,,
+BanglaBERT,Transformer encoder,Training-only weighted cross-entropy,0.5719257534038978,0.6925490196078431,0.6925490196078431,0.5698987696864233,0.7047240240254067,0.6348971357671668,0.5919389431837335,609.5090159790002,13.472840848999567,110621958.0

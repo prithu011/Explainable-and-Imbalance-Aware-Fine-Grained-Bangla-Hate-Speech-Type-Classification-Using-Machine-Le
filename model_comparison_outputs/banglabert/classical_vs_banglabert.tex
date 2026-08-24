@@ -1,0 +1,8 @@
+\begin{tabular}{lllrrrrrrrrrr}
+\toprule
+model & model_family & imbalance_method & development_macro_f1 & test_accuracy & test_micro_f1 & test_macro_f1 & test_weighted_f1 & test_balanced_accuracy & minority_recall_mean & training_time_seconds & test_inference_time_seconds & parameter_count \\
+\midrule
+Logistic Regression OVR - Balanced & Classical linear classifier & Balanced class weighting & 0.5310 & 0.6736 & 0.6736 & 0.5129 & 0.6810 & 0.5442 & 0.4516 & NaN & NaN & NaN \\
+BanglaBERT & Transformer encoder & Training-only weighted cross-entropy & 0.5719 & 0.6925 & 0.6925 & 0.5699 & 0.7047 & 0.6349 & 0.5919 & 609.5090 & 13.4728 & 110621958.0000 \\
+\bottomrule
+\end{tabular}
