@@ -1,0 +1,13 @@
+{
+  "source_split": "train",
+  "formula": "n_samples / (n_classes * class_count)",
+  "training_rows": 35522,
+  "weights": {
+    "None": 0.2966990745381043,
+    "Abusive": 0.7209368403961682,
+    "Sexism": 48.52732240437158,
+    "Religious Hate": 8.757889546351084,
+    "Political Hate": 1.4005993218200457,
+    "Profane": 2.53982553982554
+  }
+}

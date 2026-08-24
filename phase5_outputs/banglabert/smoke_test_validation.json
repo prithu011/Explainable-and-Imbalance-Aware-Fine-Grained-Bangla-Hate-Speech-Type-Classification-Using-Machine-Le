@@ -1,0 +1,49 @@
+{
+  "status": "blocked_before_model_forward",
+  "paper_valid_full_run": false,
+  "invalid_for_paper": true,
+  "test_evaluated": false,
+  "full_training_attempted": false,
+  "training_started": false,
+  "official_checkpoint": "csebuetnlp/banglabert",
+  "data_checks": {
+    "passed": true,
+    "split_rows": {
+      "train": 35522,
+      "dev": 5024,
+      "test": 10200
+    },
+    "none_class_counts": {
+      "train": 19954,
+      "dev": 2898,
+      "test": 5751
+    },
+    "exact_six_classes_present_in_every_split": true,
+    "classical_manifest_values_verified": true,
+    "training_only_class_weights_computed_and_saved": true,
+    "official_bangla_normalization_completed": true
+  },
+  "tokenizer_validation": {
+    "passed": true,
+    "tokenizer_class": "BertTokenizer",
+    "vocabulary_size": 32000,
+    "two_example_input_shape": [
+      2,
+      5
+    ]
+  },
+  "model_forward_pass": {
+    "passed": false,
+    "reason": "The official model-weight transfer stalled before a weight blob was created or grew, both with Hugging Face Xet and with Xet disabled for ordinary HTTPS."
+  },
+  "hardware": {
+    "pytorch_version": "2.13.0+cpu",
+    "transformers_version": "5.15.1",
+    "cuda_available": false,
+    "gpu_name": null,
+    "gpu_free_memory_gb": null,
+    "gpu_total_memory_gb": null
+  },
+  "required_next_step": "Run Notebook/BanglaBERT_Comparison.ipynb in a CUDA-enabled Google Colab runtime. First keep SMOKE_TEST=True to complete the model forward/training smoke path, then set SMOKE_TEST=False and run from the beginning for paper-valid outputs.",
+  "attempted_at": "2026-08-23T22:29:25.1171453+06:00"
+}
